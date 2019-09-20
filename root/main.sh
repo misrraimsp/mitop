@@ -5,7 +5,7 @@
 yes > /dev/null &
 
 #ejecuta el programa del estudiante
-./Trabajo1/mitop.sh
+./root/mitop.sh
 
 #elimina los procesos en segundo plano creados con anterioridad
 kill $(jobs -p)
