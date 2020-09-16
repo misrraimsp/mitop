@@ -1,16 +1,27 @@
-# Table of contents [![NPM version](https://img.shields.io/npm/v/update-copyright.svg?style=flat)](https://www.npmjs.com/package/update-copyright) [![NPM monthly downloads](https://img.shields.io/npm/dm/update-copyright.svg?style=flat)](https://npmjs.org/package/update-copyright) [![NPM total downloads](https://img.shields.io/npm/dt/update-copyright.svg?style=flat)](https://npmjs.org/package/update-copyright) [![Linux Build Status](https://img.shields.io/travis/jonschlinkert/update-copyright.svg?style=flat&label=Travis)](https://travis-ci.org/jonschlinkert/update-copyright)
+# Unix *top* command custom implementation: *mitop.sh* 
 
-* [General info](#general-info)
+## Table of contents
+
+* [General Info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Copyright](#copyright)
+* [References](#references)
 
-## General info
-This shell script output on screen stadistic information regarding system processes. These processes are top-down ordered with the CPU usage ratio, only showing top 'n' ones. If not specified, 'n' is set to 10. If specified value of 'n' is greater than the number of processes, then information about all of them are shown.	
+## General Info
+*top* is a task manager program found in many Unix-like operating systems that displays information about CPU and memory utilization.
+
+This shell script tries to emulate it, showing on screen stadistic information regarding system processes. These processes are top-down ordered with the CPU usage ratio, only showing top 'n' ones. If not specified, 'n' is set to 10. If specified value of 'n' is greater than the number of processes, then information about all of them are shown.
+
+For more info:
+- [Task Definition.pdf](https://github.com/misrraimsp/mitop/blob/master/Task%20Definition.pdf)
+- [Final Report.pdf](https://github.com/misrraimsp/mitop/blob/master/Final%20Report.pdf)
 
 ## Technologies
 Project is created with:
-* bash
+* Bash
+* Notepad++
+* Git
 	
 ## Setup
 To run this project, open a linux terminal and write:
@@ -27,10 +38,9 @@ $ mitop n
 - **mail**:        	 misrraimsp@gmail.com
 - **last version**:    30/11/2016
 
-
-For more info see:
-- [x] 'Task Definition.pdf'
-- [x] 'Final Report.pdf'
+## References
+- [Learning the bash Shell, 3rd Edition. Cameron Newham](https://www.oreilly.com/library/view/learning-the-bash/0596009658/)
+- [proc(5) — Linux manual page](https://man7.org/linux/man-pages/man5/proc.5.html)
 
 
 
